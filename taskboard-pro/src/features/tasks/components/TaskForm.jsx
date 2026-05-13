@@ -28,7 +28,6 @@ export function TaskForm({ taskText, onTaskTextChange, onAddTask }) {
         onChange={onTaskTextChange}
         placeholder={TASK_UI_TEXT.INPUT_PLACEHOLDER}
       />
-
       <ButtonTag onClick={onAddTask}>
         {TASK_UI_TEXT.ADD_BUTTON}
       </ButtonTag>
